@@ -75,7 +75,7 @@ cd /home/user
 ```curl
 git clone https://github.com/romsanml/flask_web flask_test
 ```
-8.1 Устанавливаем python 3.8 и необходимые пакеты
+ 8.1 Устанавливаем python 3.8 и необходимые пакеты
 ```curl
 sudo apt update
 sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools

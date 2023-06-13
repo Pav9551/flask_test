@@ -175,7 +175,7 @@ groups user
 ```curl
 sudo chmod 664 /etc/systemd/system/flask_test.service
 ```
- - устанавливаем права на файл настройки сервиса и перезапускаем его
+ - и перезапускаем его
 ```curl
 sudo systemctl start flask_test
 -Failed to start flask_test.service: Unit flask_test.service not found. (нужна перезагрузка сервиса)

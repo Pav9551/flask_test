@@ -169,7 +169,7 @@ WantedBy=multi-user.target
  - добавить указанного в файле пользователя в группу www-data
 ```curl
 usermod -aG www-data user
-groups root
+groups user
 ```
  - устанавливаем права на файл настройки сервиса
 ```curl

@@ -14,7 +14,7 @@
 ```
 
 #### Диаграмма развертывания представлена на рисунке
-![Alt-текст](https://github.com/Pav9551/PylessonsDjango/blob/nu-28-postgre-edadeal/UML_Deployment.png "Deployment")
+![Alt-текст](https://github.com/Pav9551/flask_test/blob/main/flask_deploy.jpg "Deployment")
 ## Оглавление
 
 1. [Подключение по ssh](#Подключение-по-ssh)

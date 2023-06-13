@@ -233,7 +233,7 @@ sudo ufw status
 ```curl 
 sudo chmod 775 /home/user/flask_test/
 ```
-23. Проверяем зпущенные сервисы
+23. Проверяем запущенные сервисы
 ```curl 
 netstat -nlpt
 ```

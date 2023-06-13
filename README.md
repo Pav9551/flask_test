@@ -92,7 +92,10 @@ source ~/env/user/bin/activate
 pip install wheel
 pip install flask requests
 ```
-11. Заходим на каталог cd flask_test
+11. Заходим на каталог
+```curl
+cd flask_test
+```
 и меняем в модуле настройки запуска
 ```curl
 nano main.py

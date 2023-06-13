@@ -194,6 +194,9 @@ sudo apt install nginx
 ```
 Вначале мы создадим новый файл конфигурации серверных блоков в каталоге Nginx sites-available.
 ```curl 
+sudo nano /etc/nginx/sites-available/flask_test
+```
+```curl 
 server {
     listen 80;
     server_name 123.456.789.90;

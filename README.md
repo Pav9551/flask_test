@@ -168,8 +168,8 @@ WantedBy=multi-user.target
  ```
  - добавить указанного в файле пользователя в группу www-data
 ```curl
-usermod -aG www-data user
-groups user
+sudo usermod -aG www-data user
+sudo groups user
 ```
  - устанавливаем права на файл настройки сервиса
 ```curl
@@ -226,6 +226,8 @@ sudo systemctl status nginx
 ```curl 
 sudo ufw delete allow 5000
 sudo ufw allow 'Nginx Full'
+sudo ufw allow 22
+sudo ufw allow 53
 sudo ufw enable
 sudo ufw status
 ```
